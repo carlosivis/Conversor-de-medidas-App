@@ -6,6 +6,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="imageButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
     </style>
+
+
 
 </resources>

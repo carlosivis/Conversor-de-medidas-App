@@ -13,7 +13,7 @@
             android:id="@+id/action_homeFragment_to_compFragment"
             app:destination="@id/compFragment" />
         <action
-            android:id="@+id/action_homeFragment_to_tempFragment2"
+            android:id="@+id/action_homeFragment_to_tempFragment"
             app:destination="@id/tempFragment" />
         <action
             android:id="@+id/action_homeFragment_to_pesoFragment"
