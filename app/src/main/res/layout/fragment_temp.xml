@@ -44,6 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="6"
+        android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txtValor"
@@ -53,7 +54,7 @@
         android:id="@+id/txtValorAlvo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Converter Para:"
+        android:text="@string/convert_to"
         android:textColor="@color/colorDefaultText"
         android:textSize="@dimen/textDefaultSize"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,11 +71,24 @@
         />
 
     <ImageButton
+        android:id="@+id/btnConverteTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_convert_black_24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/spinner2"
+        />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Resultado"
+        android:textSize="@dimen/textDefaultSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnConverteTemp"
+        app:layout_constraintBottom_toBottomOf="parent"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
